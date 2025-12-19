@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f9fa;
+}
+body #heading{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 4rem;
+    color: #1565c0;
+}
+.box{
+    width: 50%;
+    background-color: #e3f2fd;
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 2%;
+    padding: 40px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.box input{
+    padding: 7px 20px;
+    font-size: 1.2rem;
+    
+}
+.box input:focus{
+    outline: none;
+    border: 1px solid #90caf9;
+}
+.btn{
+    display: flex;
+    margin-top: 6%;
+
+}
+ .btn button{
+    padding: 10px 50px;
+    font-size: 1.5rem;
+    margin-inline: auto;
+    background-color: #64b5f6;
+    border: transparent;
+    color: white;
+ }
+ .btn button:hover{
+    background-color: #42a5f5;
+ }
+ .box h1{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e3f2fd;     /* very light blue */
+color: #0d47a1;                /* dark blue text */
+border: none;
+box-shadow: ;
+width: 20%;
+margin-inline: auto;
+padding-block:10px ;
+   
+ }
+ @media (max-width:576px){
+     body #heading{
+        margin-top: 10%;
+        font-size: 2rem;
+    }
+    .box {
+        width: 90%;
+    }
+    .btn button{
+        padding: 10px 20px;
+    }
+   .box input{
+    margin: 10px;
+    padding: 10px 10px;
+    font-size: 1.1rem;
+   }
+    
+ }
+ @media (min-width:577px) and (max-width:800px){
+     body #heading{
+        font-size: 3rem;
+    }
+    .box{
+        width: 80%;
+    }
+    .btn button{
+        padding: 10px 25px;
+    }
+    .box input{
+        
+    margin: 10px;
+   }
+ }
+ @media (min-width:800px) and (max-width:1200px){
+    body #heading{
+        font-size: 3.5rem;
+    }
+    .btn button{
+        padding: 10px 30px;
+    }
+
+    .box input{
+    margin: 10px;
+   }
+ }
