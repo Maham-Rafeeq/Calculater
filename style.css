@@ -55,9 +55,8 @@ body #heading{
     background-color: #e3f2fd;     
 color: #0d47a1;                
 border: none;
-width: 20%;
-margin-inline: auto;
-padding-block:10px ;
+     margin-inline:auto;
+     paddding:10px;
    
  }
  @media (max-width:576px){
@@ -108,5 +107,6 @@ padding-block:10px ;
     margin: 10px;
    }
  }
+
 
 
