@@ -52,10 +52,9 @@ body #heading{
     margin-top: 5%;
     font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #e3f2fd;     /* very light blue */
-color: #0d47a1;                /* dark blue text */
+    background-color: #e3f2fd;     
+color: #0d47a1;                
 border: none;
-box-shadow: ;
 width: 20%;
 margin-inline: auto;
 padding-block:10px ;
@@ -63,19 +62,22 @@ padding-block:10px ;
  }
  @media (max-width:576px){
      body #heading{
-        margin-top: 10%;
-        font-size: 2rem;
+         margin-top: 30%;
+         margin-bottom: 10%;
+         font-size: 2rem;
     }
     .box {
         width: 90%;
     }
     .btn button{
         padding: 10px 20px;
+          font-size: 1rem;
     }
    .box input{
+       width:90%;
     margin: 10px;
     padding: 10px 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
    }
     
  }
@@ -106,3 +108,4 @@ padding-block:10px ;
     margin: 10px;
    }
  }
+
